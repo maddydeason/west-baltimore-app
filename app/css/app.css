@@ -1,0 +1,84 @@
+/* app css stylesheet */
+
+/*-- GLOBAL --*/
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  background: #009EA3;
+  color: #FFFDFD;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: 'Futura', Helvetica, sans-serif;
+}
+h3 {
+	margin-bottom: 1rem;
+	font-weight: 400;
+}
+
+/*-- views --*/
+.landing {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.reasons {
+	border: 1px solid #FFFDFD;
+	height: 150px;
+	margin: 1em 0;
+	text-align: center;
+	width: 100%;
+	display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+.reasons a{
+	color: #FFFDFD;
+	text-decoration: none;
+}
+.reasons:hover a {
+	color: #222d2d;
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+}
+.reasons:hover {
+	background: #FFFDFD;
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+	cursor: pointer;
+}
+
+
+/*-- BUTTONS --*/
+button {
+	border: 1px solid #FFFDFD;
+	background: none;
+	padding: 1rem 4rem;
+	margin-top: 8rem;
+}
+button a {
+	color: #FFFDFD;
+	text-decoration: none;
+}
+button:hover a{
+	color: #222d2d;
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+}
+button:hover {
+	background: #FFFDFD;
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+}
+button:selection {
+	background: none;
+}

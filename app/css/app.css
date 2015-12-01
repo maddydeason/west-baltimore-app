@@ -58,8 +58,9 @@ h3 {
 button {
 	border: 1px solid #FFFDFD;
 	background: none;
-	padding: 1rem 4rem;
-	margin-top: 8rem;
+	padding: 1rem 0;
+	width: 100%;
+	margin: .5rem auto;
 }
 button a {
 	color: #FFFDFD;
@@ -81,4 +82,7 @@ button:hover {
 }
 button:selection {
 	background: none;
+}
+button.landing-button {
+	margin-top: 8rem;
 }

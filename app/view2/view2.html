@@ -1,27 +1,8 @@
 <div class="row">
 	<div class="large-8 large-offset-2 columns end">
-		<div class="row">
-			<div class="small-6 columns">
-				<div class="reasons"><a href="#/view3">Reason 1</a></div>
-			</div>
-			<div class="small-6 columns">
-				<div class="reasons"><a href="#/view3">Reason 2</a></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="small-6 columns">
-				<div class="reasons"><a href="#/view3">Reason 3</a></div>
-			</div>
-			<div class="small-6 columns">
-				<div class="reasons"><a href="#/view3">Reason 4</a></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="small-6 columns">
-				<div class="reasons"><a href="#/view3">Reason 5</a></div>
-			</div>
-			<div class="small-6 columns">
-				<div class="reasons"><a href="#/view3">Reason 6</a></div>
+		<div class="row" ng-controller="View2Ctrl">
+			<div class="small-6 columns" ng-repeat="reason in reasons">
+				<div class="reasons"><a href="#/view3">{{reason}}</a></div>
 			</div>
 		</div>
 	</div>

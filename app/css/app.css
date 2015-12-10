@@ -3,7 +3,7 @@
 /*-- GLOBAL --*/
 body {
   font-family: 'Lato', Helvetica, sans-serif;
-  background: #009EA3;
+  background: #222d2d;
   color: #FFFDFD;
   letter-spacing: 1px;
 }
@@ -32,6 +32,7 @@ h3 {
     justify-content:center;
     align-content:center;
     flex-direction:column;
+    text-transform: uppercase;
 }
 .reasons a{
 	color: #FFFDFD;

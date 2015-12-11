@@ -87,3 +87,8 @@ button:selection {
 button.landing-button {
 	margin-top: 8rem;
 }
+
+/* --- IMAGES --- */
+img {
+	width: 100%;
+}
